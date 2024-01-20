@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Redressed&display=swap');
+
+.cc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family:'Merriweater', serf;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.redressed{
+    font-family: redressed, cursive;
+}
+.merriweater{
+    font-family: merriweater, serif;
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition:padding-bottom .4s ease-in-out, boder-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom:15px;
+    border-bottom-color: var(--bs-teal);
+}
+
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/plan10.jpg')center center fixed
+    no-repeat;
+    background-size: cover;
+    height:800px;
+}
+
+.order-form{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/plan10.jpg')center center fixed
+    no-repeat;
+    background-size: cover;
+}
+
+.banner-desc{
+    font-size: 48px;
+    font-weight: 500;
+    color:floralwhite;
+}
+
+.cc-menu{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/plan2.jpg')center center fixed
+    no-repeat;
+    background-size:cover;
+    height: 1200px;
+}
+
+.btn-order{
+    color:var(--bs-teal);
+    border-color:var(--bs-teal);
+    transition: 0.5s;
+    font-weight:bold;
+}
+.btn-order:hover{
+    background-color:var(--bs-teal);
+    color:white;
+    font-weight:bold;
+}
+
+.order-button{
+    text-align:center;
+    background-color: transparent;
+    color:var(--bs-teal);
+    border-color:var(--bs-teal);
+    transition: 0.5s;
+    font-weight:bold;
+    position:relative;
+    left:500px;
+}
+.order-button:hover{
+    color:var(--bs-teal);
+    border-color:var(--bs-teal);
+    transition: 0.5s;
+    font-weight:bold;
+}
+.order-footer{
+    font-weight: 700;
+    background-color:rgba(28, 16, 72, 0.782);
+}
+.order-footer li a{
+    color: antiquewhite;
+}
+
